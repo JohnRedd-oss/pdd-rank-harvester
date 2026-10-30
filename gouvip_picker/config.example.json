@@ -1,0 +1,57 @@
+{
+  "account": {
+    "username": "YOUR_PHONE",
+    "password": "YOUR_PASSWORD"
+  },
+  "paths": {
+    "db": "data/picker.db",
+    "out": "out"
+  },
+  "weights": {
+    "sales": 0.4,
+    "growth": 0.3,
+    "price": 0.15,
+    "fresh": 0.1,
+    "new": 0.05
+  },
+  "price": {
+    "min": 5.0,
+    "max": 99.0,
+    "sweet_min": 9.9,
+    "sweet_max": 49.9
+  },
+  "filters": {
+    "min_sales": 100,
+    "max_sales": 0,
+    "min_price": 0.0,
+    "max_price": 0.0,
+    "exclude_keywords": [
+      "赠品",
+      "补差价",
+      "运费",
+      "测试",
+      "专拍",
+      "定金"
+    ],
+    "include_keywords": []
+  },
+  "rank": {
+    "top_n": 50,
+    "sales_norm_cap": 100000
+  },
+  "collect": {
+    "pages": 3,
+    "size": 100,
+    "source": "today",
+    "sort": 1
+  },
+  "watch": {
+    "cats": [
+      15
+    ],
+    "keywords": [
+      "垃圾桶"
+    ],
+    "pages": 2
+  }
+}

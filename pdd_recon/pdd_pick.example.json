@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "rank": 0.25,
+    "hot": 0.2,
+    "sales": 0.25,
+    "review": 0.15,
+    "stable": 0.1,
+    "price": 0.05
+  },
+  "price": {
+    "min": 5.0,
+    "max": 99.0,
+    "sweet_min": 9.9,
+    "sweet_max": 49.9
+  },
+  "filters": {
+    "min_sales": 1000,
+    "exclude_keywords": ["赠品", "补差价", "运费", "专拍", "定金", "测试"]
+  },
+  "top_n": 50,
+  "sales_cap": 2000000
+}

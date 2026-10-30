@@ -1,0 +1,41 @@
+# ---- 运行产物，绝不提交 ----
+# 登录态（含 cookie，泄漏等于交出账号）
+pdd-profile/
+pdd_recon/pdd-profile/
+gouvip_picker/data/token.json
+token.json
+
+# 采集数据库与原始响应
+pdd-raw/
+pdd_recon/pdd-raw/
+gouvip_picker/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 导出的表格、截图、日志
+out/
+pdd_recon/out/
+logs/
+shots/
+*.xlsx
+*.log
+
+# 真实配置（含账号密码）
+config.json
+pdd_crawler.json
+pdd_pick.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

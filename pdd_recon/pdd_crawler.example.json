@@ -1,0 +1,17 @@
+{
+  "min_gap": 15.0,
+  "max_gap": 35.0,
+  "per_hour": 8,
+  "per_day": 80,
+  "long_rest_every": 8,
+  "long_rest_min": 480,
+  "long_rest_max": 900,
+  "dwell_min": 5.0,
+  "dwell_max": 11.0,
+  "nav_timeout": 25.0,
+  "cooldown_min": 5400,
+  "cooldown_max": 10800,
+  "revisit_days": 1,
+  "dead_burst": 3,
+  "active_hours": [8, 23]
+}
